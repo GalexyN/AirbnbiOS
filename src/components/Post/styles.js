@@ -10,6 +10,30 @@ const styles = StyleSheet.create({
     resizeMode: 'cover',
     borderRadius: 10,
   },
+  bedroom: {
+    marginVertical: 10,
+    color: '#5b5b5b',
+  },
+  description: {
+    fontSize: 18,
+    lineHeight: 20,
+  },
+  prices: {
+    fontSize: 18,
+    marginVertical: 10,
+  },
+  oldPrice: {
+    fontSize: 18,
+    color: '#5b5b5b',
+    textDecorationLine: 'line-through',
+  },
+  newPrice: {
+    fontWeight: 'bold',
+  },
+  totalPrice: {
+    color: '#5b5b5b',
+    textDecorationLine: 'underline',
+  },
 });
 
 export default styles;

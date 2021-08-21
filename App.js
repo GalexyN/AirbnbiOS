@@ -9,7 +9,7 @@ const App = () => {
     <>
       <StatusBar barStyle="dark-content" />
       <SafeAreaView>
-        <HomeScreen />
+        {/* <HomeScreen /> */}
         <Post />
       </SafeAreaView>
     </>
