@@ -1,10 +1,12 @@
 import React, {useState} from 'react';
-import {View, TextInput} from 'react-native';
+import {View, TextInput, Text, FlatList} from 'react-native';
 
 import styles from './styles';
 
+import searchData from '../../../assets/search';
+
 const DestinationSearchScreen = () => {
-  const [inputText, setInputText] = React.useState('');
+  const [inputText, setInputText] = useState('');
   return (
     <View style={styles.container}>
       {/* Input Component */}
@@ -16,6 +18,10 @@ const DestinationSearchScreen = () => {
         onChange={setInputText}
       />
       {/* List of Destinations Component */}
+      <FlatList
+        data={searchData}
+        renderItem={({item}) => <Text>{item.description}</Text>}
+      />
     </View>
   );
 };
