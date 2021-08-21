@@ -10,7 +10,6 @@ const DestinationSearchScreen = () => {
   const [inputText, setInputText] = useState('');
   return (
     <View style={styles.container}>
-      {/* Input Component */}
       <TextInput
         style={styles.textInput}
         placeholder="
@@ -18,7 +17,6 @@ const DestinationSearchScreen = () => {
         value={inputText}
         onChange={setInputText}
       />
-      {/* List of Destinations Component */}
       <FlatList
         data={searchData}
         renderItem={({item}) => (
