@@ -36,6 +36,24 @@ const styles = StyleSheet.create({
   incrementorText: {
     fontSize: 20,
   },
+  guestContainer: {
+    justifyContent: 'space-between',
+    height: '100%',
+  },
+  guestSearchButton: {
+    marginBottom: 20,
+    backgroundColor: '#f15454',
+    alignItems: 'center',
+    justifyContent: 'center',
+    height: 50,
+    marginHorizontal: 20,
+    borderRadius: 10,
+  },
+  guestSearchButtonText: {
+    fontSize: 20,
+    color: '#fff',
+    fontWeight: 'bold',
+  },
 });
 
 export default styles;

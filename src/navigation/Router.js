@@ -21,6 +21,11 @@ const Router = () => {
           component={GuestsScreen}
           options={{title: 'How many people?'}}
         />
+        <Stack.Screen
+          name={'Destination Search'}
+          component={DestinationSearchScreen}
+          options={{title: 'Search your destination'}}
+        />
       </Stack.Navigator>
     </NavigationContainer>
   );
