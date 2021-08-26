@@ -60,3 +60,4 @@ buck-out/
 
 # API KEY
 /api_key.js
+/ios/AirbnbCloneIOS/AppDelegate.m
